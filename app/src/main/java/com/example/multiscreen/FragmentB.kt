@@ -17,8 +17,5 @@ class FragmentB : Fragment() {
         return inflater.inflate(R.layout.fragment_b, container, false)
     }
 
-    fun displayDetails(title: String, description: String) {
-
-    }
 
 }

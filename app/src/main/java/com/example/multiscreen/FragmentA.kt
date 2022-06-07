@@ -14,9 +14,7 @@ class FragmentA : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val rootView = inflater.inflate(R.layout.fragment_a, container, false)
-        setupRecyclerView(rootView)
-        return rootView
+        return inflater.inflate(R.layout.fragment_a, container, false)
     }
 
     private fun setupRecyclerView(rootView: View?) {
